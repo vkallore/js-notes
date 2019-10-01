@@ -52,11 +52,11 @@
 
 ### Unmounting
 
-- static getDerivedStateFromError()
 - componentWillUnmount()
 
 ### Error Handling
 
+- static getDerivedStateFromError()
 - componentDidCatch()
 
 ## React.js Performance
