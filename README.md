@@ -38,13 +38,13 @@
 ### Mounting
 
 - constructor()
-- static getDiversedStateFromProps()
+- static getDerivedStateFromProps()
 - render()
 - componentDidMount()
 
 ### Updating
 
-- static getDiversedStateFromProps()
+- static getDerivedStateFromProps()
 - shouldComponentUpdate()
 - render()
 - getSnapshotBeforeUpdate()
@@ -52,6 +52,7 @@
 
 ### Unmounting
 
+- static getDerivedStateFromError()
 - componentWillUnmount()
 
 ### Error Handling
